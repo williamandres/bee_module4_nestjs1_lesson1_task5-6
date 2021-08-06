@@ -29,7 +29,7 @@ export class NestController {
         return[
             {
                 nombre: 'put',
-                respuesta: 308,
+                respuesta: 200,
             }
         ]
     }
