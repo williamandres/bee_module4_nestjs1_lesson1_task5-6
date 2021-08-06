@@ -18,6 +18,8 @@ export class NestController {
         return[
             {
                 nombre: 'post',
+                respuesta: 201,
+
             }
         ]
     }
@@ -27,6 +29,7 @@ export class NestController {
         return[
             {
                 nombre: 'put',
+                respuesta: 308,
             }
         ]
     }
@@ -36,6 +39,9 @@ export class NestController {
         return[
             {
                 nombre: 'delete',
+                'queryEjemploGet1': 1,
+                'queryEjemploGet2': 2,
+                'queryEjemploGet3': 3,
             }
         ]
     }
